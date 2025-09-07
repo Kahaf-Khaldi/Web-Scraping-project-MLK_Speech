@@ -1,8 +1,8 @@
 # Web Scraping Project – MLK Speech
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates **web scraping using Python** to extract text from the webpage:  
-👉 [Martin Luther King Jr. – “I Have a Dream” Speech](http://www.analytictech.com/mb021/mlk.htm)
+ [Martin Luther King Jr. – “I Have a Dream” Speech](http://www.analytictech.com/mb021/mlk.htm)
 
 The goal was to:
 - Scrape the full speech text from the HTML page  
@@ -11,7 +11,7 @@ The goal was to:
 
 ---
 
-## 🛠️ Tools & Libraries Used
+## Tools & Libraries Used
 - **Python**  
 - **Requests** → To fetch the webpage  
 - **BeautifulSoup (bs4)** → For parsing and extracting HTML content  
@@ -20,7 +20,7 @@ The goal was to:
 
 ---
 
-## 📂 Project Workflow
+## Project Workflow
 1. **Fetch the Webpage**  
    Used `requests.get()` to retrieve the HTML content of the webpage.  
 
@@ -37,7 +37,7 @@ The goal was to:
 
 ---
 
-## 📊 Example Output
+##  Example Output
 After cleaning, you get a plain text version of MLK’s famous speech that can be used for:  
 - Word frequency analysis  
 - Sentiment analysis  
@@ -45,9 +45,3 @@ After cleaning, you get a plain text version of MLK’s famous speech that can b
 - Topic modeling  
 
 ---
-
-## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/web-scraper-mlk.git
-   cd web-scraper-mlk
